@@ -14,4 +14,6 @@ The student should have 3  private data members:
   In the main() method, create a **student** object  with the name "Lisa Waddell", id of 54321, and gpa of 2.5, then call the displayStudent() method to generate the ouput
 
   The student Lisa Waddell has an id of 54321 with a gpa of 2.5.
+
+  Make sure to rename your codespace so you can find this in the future!
   
