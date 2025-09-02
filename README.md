@@ -1,15 +1,17 @@
-Exercise 2.3. The point of this exercise is to (1) use some of the arithmetic operators, and (2) start thinking about compound entities (like time of day) that are represented with multiple values.
+Create a **student** class in java. 
+The student should have 3 data members:
+* String name
+* int id
+* double gpa
 
-Edit the file called Time.java. From now on, we won’t remind you to start with a small, working program, but you should.
+  It should have one constructor, that takes in all three pieces of data, and assigns them using the **this** operator;
 
-1. Following the example program in Section 2.4, create variables named hour, minute, and second. Assign values that are roughly the current time. Use a 24-hour clock so that at 2:00 PM the value of hour is 14.
+  Each data member should have a corresponding *getter* that allows another program to **get** information about the student, and a *setter* that allows someone to **set**  information for the student.
 
-2. Make the program calculate and display the number of seconds since midnight.
+  It should also have a method called dispayStudent() which will output information about the student in this way:
+  The student Bob Moore has an id of 87678 with a gpa of 3.5.
 
-3. Calculate and display the number of seconds remaining in the day.
+  In the main() method, create a **student** object  with the name "Lisa Waddell", id of 54321, and gpa of 2.5, then call the displayStudent() method to generate the ouput
 
-4. Calculate and display the percentage of the day that has passed. You might run into problems when computing percentages with integers, so consider using floating-point.
-
-5. Change the values of hour, minute, and second to reflect the current time. Then write code to compute the elapsed time since you started working on this exercise.
-
-**Hint:* You might want to use additional variables to hold values during the computation. Variables that are used in a computation but never displayed are sometimes called “intermediate” or “temporary” variables.*
+  The student Lisa Waddell has an id of 54321 with a gpa of 2.5.
+  
